@@ -13,7 +13,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 import java.io.IOException;
 
 @RequiredArgsConstructor
-public class TokenAuthenticationFiler extends OncePerRequestFilter {
+public class TokenAuthenticationFilter extends OncePerRequestFilter {
 
     private final TokenProvider tokenProvider;
     private final static String HEADER_AUTHORIZATION = "Authorization";
