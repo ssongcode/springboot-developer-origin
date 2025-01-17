@@ -26,7 +26,7 @@ spring:
 
 jwt:
   issuer: songsoy95@gmail.com
-  secret_key: study-springboot
+  secret_key: ${JWT_SECRET_KEY}
 
 logging:
   level:
