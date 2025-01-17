@@ -6,7 +6,7 @@
   </component>
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -17,7 +17,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="08c61023-19a9-4898-bcd3-f4ba716da29b">
-      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[create database blog;
+      <console name="Connection" type="STANDARD" schema="" session="Main">create database blog;
 use blog;
 
 create table article(
@@ -47,7 +47,7 @@ create table users(
     primary key (id)
 );
 
-show tables;]]></console>
+show tables;</console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
